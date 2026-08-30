@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Product Card</title>
+         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+     <div class="w-80 overflow-hidden rounded-xl bg-white shadow-lg">
+
+  <!-- Product Image -->
+  <img
+    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    alt="Nike Running Shoes"
+    class="h-56 w-full object-cover"
+  />
+
+  <!-- Product Content -->
+  <div class="p-5">
+
+    <!-- Category -->
+    <p class="text-sm font-medium text-gray-500">
+      Running Shoes
+    </p>
+
+    <!-- Product Name -->
+    <h2 class="mt-1 text-2xl font-bold text-gray-900">
+      Nike Air Max
+    </h2>
+
+    <!-- Description -->
+    <p class="mt-2 text-sm leading-6 text-gray-600">
+      Comfortable and stylish running shoes designed for everyday performance.
+    </p>
+
+    <!-- Price + Button -->
+    <div class="mt-5 flex items-center justify-between">
+
+      <p class="text-2xl font-bold text-gray-900">
+        $129
+      </p>
+
+      <button
+        class="rounded-lg bg-black px-5 py-2.5 font-semibold text-white hover:bg-gray-800"
+      >
+        Add to Cart
+      </button>
+
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
